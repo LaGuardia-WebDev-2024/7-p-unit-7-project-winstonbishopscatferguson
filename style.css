@@ -1,12 +1,12 @@
 body {
-  background-color: black;
+  background-color: rgb(239,227,190);
   text-align: center;
-  color: white;
+  color: green
 }
 
 
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url(https://img.freepik.com/free-vector/school-building-near-road-illustration_1262-16602.jpg);
   background-size: 400px;
   border-radius: 30px;
   border: 1px solid rgb(255,245,227);
