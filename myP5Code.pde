@@ -4,8 +4,10 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var fireworkX = 20;
-
+var leftwheelX = 39;
+var rightwheelX = 101;
+var rectbodyX = 27;
+var rectbodyY = 50
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
@@ -17,10 +19,18 @@ draw = function(){
   }
   
   //🎯Animation Code Goes Here
-  rect(fireworkX, 15, 10, 10);
-  
-  fireworkX = fireworkX + 1;
+ fill(128,140,127)
+ //body
+rect(rectbodyX,145,100,rectbodyY)
+fill(0,0,0)
+//wheel
+ellipse(leftwheelX,191,20,20)
+ellipse(rightwheelX,189,20,20)
 
+leftwheelX += 1
+rightwheelX += 1
+rectbodyX += 1
+rectbodyY += 1
 }
 
 //🟡Extra FUN Features Ms. Hall Added
