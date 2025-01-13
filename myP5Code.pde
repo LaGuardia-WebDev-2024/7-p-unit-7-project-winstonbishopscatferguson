@@ -30,7 +30,18 @@ ellipse(rightwheelX,189,20,20)
 leftwheelX += 1
 rightwheelX += 1
 rectbodyX += 1
-rectbodyY += 1
+rectbodyY += 1;
+
+if(leftwheelX> 400){
+  leftwheelX = 39 };
+  if(rightwheelX> 400){
+  rightwheelX = 101};
+  if(rectbodyX> 400){
+  rectbodyX = 27};
+  if(rectbodyY> 400){
+  rectbodyY = 50;
+  
+}
 }
 
 //🟡Extra FUN Features Ms. Hall Added
